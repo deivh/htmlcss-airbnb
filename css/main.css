@@ -35,11 +35,21 @@
 
 .city-name {
   color: #fff;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: bold;
   text-shadow: 1px 1px #000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding: 100px;
+  z-index: 70;
+  transition: transform .2s;
+}
+
+
+.city-name:hover{
+  color: #ff9966;
+  font-size: 120px;
+
 }
