@@ -33,6 +33,11 @@
   z-index: 50;
 }
 
+.layover:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
 .city-name {
   color: #fff;
   font-size: 80px;
@@ -51,5 +56,6 @@
 .city-name:hover{
   color: #ff9966;
   font-size: 120px;
+  text-shadow: 5px 2px #000;
 
 }
